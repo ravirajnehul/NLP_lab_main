@@ -3,8 +3,6 @@
 #Assigment no: 1
 
 
-
-
 import spacy
 nlp = spacy.load("en_core_web_sm")
 
@@ -26,10 +24,7 @@ for sentence in sentences:
     
 print("---------------------------Tokenization -------------------------")
 about_text = (
-    "Gus Proto is a Python developer currently"
-    " working for a London-based Fintech"
-    " company. He is interested in learning"
-    " Natural Language Processing."
+    "MBA, Dr. V.R. Malkar, Ms. P.S. Kawle, Dr. V.M Tidake, Dr. Ghodake Shamrao P, Mr. Jayraj Bhiku Javheri, Mr. Vivek V Wankhede, Dr. Vishal Diliprao Chavan, Mr. Prakash Manoharan, Dr. Ritesh K. Patel, Ms. Dipashri H. Pawar, Dr. Sanjit Singh, Prof. Jaee Jogalekar, Dr. K. Meenatchi Somasundari, Mr.Sudhanshu Bhatt, Dr. Tanaya Patil, HOD, Associate Professor, Assistant Professor"
 )
 about_doc = nlp(about_text)
 
